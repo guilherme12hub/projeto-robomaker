@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro</title>
+</head>
+
+<body>
+<header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html"></a>
+            </li>
+        </ul>
+    </nav>
+</header>
+    <form action="">
+        <label for="nome">Nome Completo</label>
+        <br>
+        <input 
+            type="text" 
+            name="nome" 
+            id="nome"
+            placeholder="Digite seu nome"
+            required
+        >
+        <br><br>
+        <label for="email">Email</label>
+        <br>
+        <input
+            type="email" 
+            name="email" 
+            id="Email"
+            placeholder="Digite seu e-mail"
+            required
+        >
+        <br><br>
+        <label for="senha">Senha</label>
+        <br>
+        <input 
+            type="password" 
+            name="senha" 
+            id="Senha"
+            placeholder="Digite sua senha"
+            required
+        >
+        <br><br>
+        <label for="data-nascimento">Data de Nascimento</label>
+        <br>
+        <input 
+            type="date" 
+            name="data-nascimento" 
+            id="Data de Nascimento"
+            required
+        >
+        <br><br>
+        <label for="Perfil de aluno">Perfil de aluno</label>
+        <br>
+        <input type="radio" name="Perfil de aluno" id="Perfil de aluno">
+        <label for="Estudante">Estudante</label>
+
+        <input type="radio" name="Perfil de aluno" id="Perfil de aluno">
+        <label for="Professor/Hobista">Professor/Hobista</label>
+        <select name="Trilha de interesse" id="Trilha de interesse">
+            <option value="Róbotica básica">Róbotica básica</option>
+            <option value="Inteligência artificial">Inteligência artificial</option>
+            <option value="Progamação">Progamação</option>
+        </select>
+        <button type="submit">Envie seu cadastro</button>
+    </form>
+</body>
